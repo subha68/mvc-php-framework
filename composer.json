@@ -1,0 +1,10 @@
+{
+    "name": "aep/php-mvc-core",
+    "authors": [
+        {
+            "name": "AmaderEPathshala",
+            "email": "subha68@gmail.com"
+        }
+    ],
+    "require": {}
+}
