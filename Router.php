@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace aep\phpmvc;
 
-use app\core\exceptions\NotFoundException;
+use aep\phpmvc\exceptions\NotFoundException;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class Router {
@@ -16,8 +16,8 @@ class Router {
 
     /**
     * Router constructor
-    * @param \app\core\Request $request
-    * @param \app\core\Response $response
+    * @param \aep\phpmvc\Request $request
+    * @param \aep\phpmvc\Response $response
     */
     public function __construct(Request $request, Response $response) {
         $this->request = $request;
@@ -46,7 +46,7 @@ class Router {
         }
 
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \aep\phpmvc\Controller $controller */
             $controller = new $callback[0];
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

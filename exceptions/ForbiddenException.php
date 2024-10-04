@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core\exceptions;
+namespace aep\phpmvc\exceptions;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core\exceptions
+* @package aep\phpmvc\exceptions
 */
 
 class ForbiddenException extends \Exception {

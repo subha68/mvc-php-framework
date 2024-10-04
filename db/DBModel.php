@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\db;
+namespace aep\phpmvc\db;
 
-use app\core\Model;
-use app\core\Application;
+use aep\phpmvc\Model;
+use aep\phpmvc\Application;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 abstract class DBModel extends Model {

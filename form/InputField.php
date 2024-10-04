@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\form;
+namespace aep\phpmvc\form;
 
-use app\core\Model;
-use app\core\form\Field;
+use aep\phpmvc\Model;
+use aep\phpmvc\form\Field;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class InputField extends Field {

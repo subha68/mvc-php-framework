@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core\form;
+namespace aep\phpmvc\form;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class Form {

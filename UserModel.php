@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace aep\phpmvc;
 
-use \app\core\db\DBModel;
+use \aep\phpmvc\db\DBModel;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 abstract class UserModel extends DBModel {

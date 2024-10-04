@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\form;
+namespace aep\phpmvc\form;
 
-use app\core\Model;
+use aep\phpmvc\Model;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class TextareaField extends Field {

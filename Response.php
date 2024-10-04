@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core;
+namespace aep\phpmvc;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class Response {

@@ -1,19 +1,19 @@
 <?php
 
-namespace app\core;
+namespace aep\phpmvc;
 
-use app\core\middlewares\Middleware;
+use aep\phpmvc\middlewares\Middleware;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class Controller {
     public string $layout = 'main';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\middleware[]
+     * @var \aep\phpmvc\middlewares\middleware[]
      */
     protected array $middlewares = [];
 

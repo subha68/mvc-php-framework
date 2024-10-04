@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\db;
+namespace aep\phpmvc\db;
 
-use app\core\Application;
+use aep\phpmvc\Application;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class Database {

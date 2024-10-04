@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core\middlewares;
+namespace aep\phpmvc\middlewares;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 abstract class Middleware {

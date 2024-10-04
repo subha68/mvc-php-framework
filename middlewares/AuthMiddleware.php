@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core\middlewares;
+namespace aep\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exceptions\ForbiddenException;
+use aep\phpmvc\Application;
+use aep\phpmvc\exceptions\ForbiddenException;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class AuthMiddleware extends Middleware {

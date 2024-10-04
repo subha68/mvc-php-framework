@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace aep\phpmvc;
 
-use \app\core\Application;
+//use aep\phpmvc\Application;
 
 /**
 * @autor AmaderEPathshala
-* @package app\core
+* @package aep\phpmvc
 */
 
 class Request {
